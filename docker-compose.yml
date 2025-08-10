@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  typing-checker:
+    build: .
+    volumes:
+      - .:/app
+    tty: true
